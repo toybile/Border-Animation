@@ -24,12 +24,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    position: relative;
 }
 header h1 {
     position: relative;
     width: max-content;
     color: white;
     font-size: 3.5em;
+    cursor: w-resize;
 }
 header h1::after {
     content: '';
@@ -55,7 +58,6 @@ header h1:hover::after {
     display: flex;
     position: fixed;
     top: 0;
-    z-index: -1;
 }
 
 .card h1 {
