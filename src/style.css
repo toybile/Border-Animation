@@ -113,3 +113,14 @@ header h1:hover::after {
         --angle: 360deg;
     }
 }
+
+
+/*  */
+/* SMARTPHONES */
+/*  */
+
+@media(max-width: 800px){
+    .card{
+        width: 70%;
+    }
+}
